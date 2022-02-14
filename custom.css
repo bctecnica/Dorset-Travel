@@ -5,7 +5,7 @@
 @font-face {
       font-family: 'abolition regular';
     /*  where the font is loaded from*/
-      src: url(../fonts/Abolition-Round.woff) format('woff')
+      src: url('fonts/Abolition-Round.woff') format('woff')
 }
 
 html {
