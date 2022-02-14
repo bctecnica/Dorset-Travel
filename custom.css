@@ -1,0 +1,58 @@
+:root {
+    --main-accent-color: rgb(27,128,141);
+  }
+
+
+/* ---NAV--- */
+nav li a {
+    font-size: 2rem;;
+}
+
+nav {
+    background: var(--main-accent-color);
+}
+
+nav .navbar-brand {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem;
+}
+
+/* ---HEADER--- */
+header, footer {
+    text-align: center;
+}
+  
+header {
+margin: -1rem -1rem 1rem;
+padding: 10vh 1rem;
+background: url(../img/mountains.jpg) center / cover no-repeat var(--main-accent-color);
+/* used to blend an image with a background color in various ways */
+background-blend-mode: multiply;
+color: white;
+}
+
+.title {
+letter-spacing: 1px;
+}
+
+
+
+/* Media Queries ------------------- */
+@media screen and (min-width: 720px) {
+    header {
+        padding: 20vh 1rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .title {
+        font-size: 1.25rem
+    }
+
+    .intro {
+        padding: 0 15%;
+        font-size: 1.1rem;
+    }
+}
