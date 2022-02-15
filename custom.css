@@ -117,6 +117,9 @@ section {
     padding-top: 6px;
 }
 
+.card-link:hover {
+    color: rgba(0,10,30,.5);
+}
 
 .btn-accent {
     background-color: var(--main-accent-color) !important;
@@ -127,9 +130,13 @@ div .card {
 }
 
 .card-top {
-    border-radius: .2rem;
+    border-radius: .5rem .5rem 0rem 0rem;
     border-bottom: .5rem solid var(--main-accent-color);
+}
 
+.card {
+    box-shadow: 1px 2px 3px rgba(0,10,30,.5);
+    border-radius: .5rem;
 }
 
 
