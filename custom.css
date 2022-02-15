@@ -15,17 +15,22 @@ html {
 
 /* ---NAV--- */
 nav li a {
-    font-size: 1.6rem;;
+    font-size: 1.55rem;
 }
 
-nav {
+nav {   
     background: var(--main-accent-color);
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+
 }
 
 nav .navbar-brand {
     font-family: 'Amatic SC', cursive;
     font-size: 2rem;
+}
+
+.nav-toggle {
+    border: 1px solid rgba(255, 255, 255, .75) !important;
 }
 
 /* ---HEADER--- */
@@ -41,7 +46,7 @@ body {
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    perspective: 10px;
+    perspective: 9px;
 }
 
 header {
@@ -49,18 +54,18 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 6rem;
     height: 100%;
     transform-style: preserve-3d;
     z-index: -1;
 }
 
 .welcome{
-    font: 300 100%/1.5 'Work Sans', Sans-serif;
+    font: 500 100%/1.5 'Work Sans', Sans-serif;
 }
 
 .background {
-    transform: translateZ(-10px) scale(2.1);
+    transform: translateZ(-10px) scale(2.2);
 }
 
 .foreground {
@@ -97,11 +102,37 @@ header {
 }
 
 section {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 2rem;
     background-color: white;
     color: black;
 }
+
+.section-title,
+.card-link {
+    color: var(--main-accent-color);
+}
+
+.card-link {
+    padding-top: 6px;
+}
+
+
+.btn-accent {
+    background-color: var(--main-accent-color) !important;
+}
+
+div .card {
+    margin-top: 2rem;
+}
+
+.card-top {
+    border-radius: .2rem;
+    border-bottom: .5rem solid var(--main-accent-color);
+
+}
+
+
 
 
 
@@ -118,17 +149,15 @@ section {
 
     nav .navbar-brand {
         font-family: 'Amatic SC', cursive;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     header {
         margin-top: 2rem;
-        align-items: normal;
     }
 
     .title { 
         font-size: 1.5rem;
-
     }
 
     .dorset {
@@ -137,7 +166,7 @@ section {
     }
 
     .welcome {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
     }
 
 
