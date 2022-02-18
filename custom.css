@@ -4,7 +4,6 @@
 
 @font-face {
       font-family: 'abolition regular';
-    /*  where the font is loaded from*/
       src: url('fonts/Abolition-Round.woff') format('woff')
 }
 
@@ -31,6 +30,13 @@ nav .navbar-brand {
 
 .nav-toggle {
     border: 1px solid rgba(255, 255, 255, .75) !important;
+}
+
+.nav-link {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    padding-left: 1rem!important;
+    padding-top: .25rem!important;
 }
 
 /* ---HEADER--- */
@@ -101,6 +107,7 @@ header {
 
 }
 
+/* ---MAIN BODY--- */
 .main-container {
     font-size: 1.5rem;
     padding: 1rem;
@@ -111,6 +118,17 @@ header {
 .section-title,
 .card-link {
     color: var(--main-accent-color);
+}
+
+.section-title {
+    padding-left: 1rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.7rem;
+}
+
+section {
+    font-size: 1.4rem;
+    padding: 0rem 1rem;
 }
 
 .card-link {
@@ -189,6 +207,10 @@ div .card {
         font-size: 3rem;
     }
 
+    .nav-link {
+        font-size: 1.8rem;
+    }
+
     header {
         margin-top: 2rem;
     }
@@ -208,6 +230,24 @@ div .card {
 
     .main-container {
         padding: 2rem;
+    }
+
+    .row {
+        padding: 1rem 1rem;
+    }
+
+    .section-title {
+        font-family: 'Amatic SC', cursive;
+        font-size: 4rem;
+    }
+    
+    section {
+        font-size: 1.2rem;
+        padding: 0rem 1rem;
+    }
+
+    .navbar {
+        padding: 0rem 2.1rem;
     }
 
 
