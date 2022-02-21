@@ -5,7 +5,7 @@
 
 @font-face {
       font-family: 'abolition regular';
-      src: url('fonts/Abolition-Round.woff') format('woff')
+      src: url('../fonts/Abolition-Round.woff') format('woff')
 }
 
 html {
@@ -193,13 +193,13 @@ div .card {
     margin: 0rem 0rem -.6rem 0rem;
     padding: 0rem .6rem 0rem 0rem;
     display: inline;
-    content: url(img/directions-svgrepo-com.svg);
+    content: url(../img/directions-svgrepo-com.svg);
     width: 1.8rem; height: 1.8rem;
 }
 
 .map-pin-svg {
     display: inline;
-    content: url(img/map-pin.svg);
+    content: url(../img/map-pin.svg);
     width: 1.1rem; height: 1.1rem;
 }
 

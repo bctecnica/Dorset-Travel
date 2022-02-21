@@ -3,16 +3,22 @@
 }
 /* Example images */
 #slide_1 {
-    background-image: url(https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2FtcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-image: url(../img/nick-fewings-bc74qbTwan0-unsplash.jpg);
 }
 #slide_2 {
-    background-image: url(https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2FtcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-image: url(../img/nick-fewings-Bd1MhsLxeRI-unsplash.jpg);
 }
 #slide_3 {
-    background-image: url(https://images.unsplash.com/photo-1600716051809-e997e11a5d52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FtcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-image: url(../img/ashleigh-joy-photography-uyRku9KF2N8-unsplash.jpg);
 }
 #slide_4 {
-    background-image: url(https://images.unsplash.com/photo-1524419986249-348e8fa6ad4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNhbXBsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    background-image: url(../img/benjamin-elliott-tsDlCeWr0m8-unsplash.jpg);
+}
+#slide_5 {
+    background-image: url(../img/jen-bonner-1dOr6_rUud0-unsplash.jpg);
+}
+#slide_6 {
+    background-image: url(../img/nick-fewings-cc9kE1o_1Es-unsplash.jpg);
 }
 .li_slide {
     background-size: cover;
