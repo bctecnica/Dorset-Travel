@@ -13,7 +13,7 @@ html {
     height: 100%;
 }
 
-/* ---NAV--- */
+/* -----NAV----- */
 nav li a {
     font-size: 1.55rem;
 }
@@ -42,7 +42,7 @@ nav .navbar-brand {
     padding-top: 0rem!important;
 }
 
-/* ---HEADER--- */
+/* -----HEADER----- */
 header, footer {
     text-align: center;
 }
@@ -111,7 +111,7 @@ header {
 
 }
 
-/* ---ADVENTURE CARDS--- */
+/* -----ADVENTURE CARDS----- */
 .main-container {
     font-size: 1.5rem;
     padding: 1rem;
@@ -214,7 +214,7 @@ div .card {
     color: white;
 }
 
-/* ---FOOD GRID--- */
+/* -----FOOD GRID----- */
 .food-container {
 	display: grid;
 }
@@ -286,8 +286,88 @@ div .card {
     color: rgb(221, 221, 221);
 }
 
-/* ---GALLERY--- */
+/* -----CALENDER----- */
+.cal-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px  rgb(0, 0, 0,0.2);
+    margin: 0 auto;
+}
 
+.cal-item-container{
+    width: 100%;
+    height: 100%;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."
+      "."; 
+
+}
+
+.calender{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+    gap: 0.5rem;
+}
+
+.calender li{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    height: 2.5rem;
+    padding: 0;
+    
+    border-radius: 0.6rem;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    cursor: pointer;
+    box-shadow: 0 5px 5px  rgb(0, 0, 0,0.2);
+}
+
+ul .whitecoloricon{
+    color: white;
+}
+
+.active{
+    background-image: linear-gradient(160deg, rgba(255,255,224,.8) 0%, rgba(200,100,50,.2) 50%);                  
+    background-color: rgb(27,128,141);
+    color: white;
+    transition: 300ms;
+}
+
+.cal-right-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.cal-right-bar h1{
+    margin: 0;
+    font-size: 2rem;
+}
+.cal-right-bar p{
+    line-height: 21px;
+}
+
+.month {
+    font-family: abolition regular, Impact, Charcoal;
+    text-decoration: underline;
+    color: rgb(27,128,141);
+}
+
+
+
+/* -----GALLERY----- */
 #slideshow { 
     margin: 2rem auto; 
     position: relative; 
@@ -310,12 +390,7 @@ div .card {
     height: 100%; 
 }
 
-
-
-
-
-
-/* ---FOOTER--- */
+/* -----FOOTER----- */
 .footer-basic {
     padding: 0px 0px 20px 0;
     background-color:var(--main-accent-color);
@@ -380,10 +455,10 @@ div .card {
     text-align:center;
     font-size:13px;
     color:white;
-    margin-bottom:0;
+    margin-bottom:2rem;
 }
 
-/* Media Queries ------------------- */
+/* --------------Media Queries ------------------- */
 @media screen and (min-width: 720px) {
 
     h1 {
@@ -469,6 +544,27 @@ div .card {
     #slideshow { 
         width: 600px; 
         height: 410px;
+    }
+
+    .cal-item-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 2rem;
+        align-items: center;  
+    }
+
+    .calender li{
+        width: 3.5rem;
+    }
+
+    .cal-right-bar {
+        margin-top: 0;
+    }
+
+    .cal-container{
+        width: 30rem;
+        padding: 2rem;
     }
 
 
