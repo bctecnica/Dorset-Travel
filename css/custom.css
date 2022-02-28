@@ -380,10 +380,11 @@ ul .whitecoloricon{
 
 .year {
     font-family: abolition regular, Impact, Charcoal;
+    text-decoration: underline;
     color: rgb(27,128,141);
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .month {
@@ -485,7 +486,7 @@ em {
     text-align:center;
     font-size:13px;
     color:white;
-    margin-bottom:2rem;
+    margin-bottom:1rem;
 }
 
 /* --------------Media Queries ------------------- */
