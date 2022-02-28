@@ -56,7 +56,6 @@ allLi.forEach((li, index) => {
         }
         
         if(index === 3){
-            console.log("3");
             h1Text.textContent="April";
             textparagraph.innerHTML= `
             <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
@@ -70,7 +69,6 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 4){
-            console.log("4");
             h1Text.textContent="May";
             textparagraph.innerHTML= `
             <em>6th</em> - Shaftesbury Food and Drink Festival<br><em>Shaftesbury</em><br>
@@ -84,7 +82,6 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 5){
-            console.log("5");
             h1Text.textContent="June";
             textparagraph.innerHTML= `
             <em>2nd</em> - Christchurch Food Festival<br><em>Christchurch</em><br>
@@ -98,7 +95,6 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 6){
-            console.log("6");
             h1Text.textContent="July";
             textparagraph.innerHTML= `
             <em>9th</em> - Bourne Free<br><em>Bournemouth</em><br>
