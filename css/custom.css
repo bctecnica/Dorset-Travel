@@ -347,7 +347,7 @@ div .card {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     cursor: pointer;
     box-shadow: 0 5px 5px  rgb(0, 0, 0,0.2);
 }
@@ -380,7 +380,6 @@ ul .whitecoloricon{
 
 .year {
     font-family: abolition regular, Impact, Charcoal;
-    text-decoration: underline;
     color: rgb(27,128,141);
     font-size: 2rem;
     text-align: center;
