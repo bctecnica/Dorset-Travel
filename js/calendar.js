@@ -1,5 +1,5 @@
 const leftbar = document.querySelector(".cal-left-bar");
-const allLi = document.querySelectorAll(".calender li");
+const allLi = document.querySelectorAll(".calendar li");
 
 const rightBar = document.querySelector(".cal-right-bar");
 const h1Text = document.querySelector(".month");

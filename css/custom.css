@@ -327,7 +327,7 @@ div .card {
 
 }
 
-.calender{
+.calendar{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -335,7 +335,7 @@ div .card {
     gap: 0.5rem;
 }
 
-.calender li{
+.calendar li{
     box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
@@ -357,7 +357,7 @@ ul .whitecoloricon{
 }
 
 .active{
-    background-image: linear-gradient(180deg, rgba(255,255,224,.4) 0%, rgba(204, 204, 204, 0.2) 50%);                  
+    background-image: linear-gradient(180deg, rgba(255,255,224,.4) 0%, rgba(204, 204, 204, 0.1) 50%);                  
     background-color: rgb(27,128,141);
     color: white;
     transition: 300ms;
@@ -383,7 +383,7 @@ ul .whitecoloricon{
     color: rgb(27,128,141);
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .month {
@@ -585,7 +585,7 @@ em {
         align-items: center;  
     }
 
-    .calender li{
+    .calendar li{
         width: 3.5rem;
     }
 
