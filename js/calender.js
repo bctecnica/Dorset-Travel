@@ -20,11 +20,11 @@ allLi.forEach((li, index) => {
             h1Text.textContent="January";
             textparagraph.innerHTML= `
             1st - some thing<br>
-            8th - some other thing<br>
+            -<br>
             12st - some thing<br>
-            18th - some other thing<br>
+            -<br>
             21st - some thing<br>
-            28th - some other thing<br>
+            -<br>
             31st - some thing<br>
             `;
         }
