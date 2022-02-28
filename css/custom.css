@@ -364,6 +364,7 @@ ul .whitecoloricon{
 }
 
 .cal-right-bar{
+    margin-top: -1rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -377,10 +378,22 @@ ul .whitecoloricon{
     line-height: 21px;
 }
 
+.year {
+    font-family: abolition regular, Impact, Charcoal;
+    color: rgb(27,128,141);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 .month {
     font-family: abolition regular, Impact, Charcoal;
     text-decoration: underline;
     color: rgb(27,128,141);
+}
+
+em {
+    color: var(--main-accent-color);
 }
 
 /* -----GALLERY----- */
@@ -409,7 +422,7 @@ ul .whitecoloricon{
 /* -----FOOTER----- */
 .footer-basic {
     padding: 0px 0px 20px 0;
-    background-color:var(--main-accent-color);
+    background-color: var(--main-accent-color);
 }
 
 .wave-svg {
@@ -581,7 +594,7 @@ ul .whitecoloricon{
     }
 
     .cal-container{
-        width: 30rem;
+        width: 40rem;
         padding: 2rem;
     }
 
