@@ -41,13 +41,13 @@
                         <a class="nav-link" href="#adventures">Adventures</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Food</a>
+                        <a class="nav-link" href="#food">Food</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
+                        <a class="nav-link" href="#events">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
                     </li>
                     </ul>
                 </div>
@@ -55,9 +55,9 @@
         </nav> <!-- /Nav -->
 
         <!-- Header -->
-        <header id="top">
-            <img src="img/sand-back-2.jpg" class="background">
-            <img src="img/sand-fg.png" class="foreground">
+        <header id="top" class="anchor">
+            <img src="img/sand-back-2.jpg" alt="sandy beach" class="background">
+            <img src="img/sand-fg.png" alt="crashing waves" class="foreground">
             <span class="title">
                 <h1 class="dorset">Dorset</h1>
                 <h3 class="sub-title">Explore the home of the Jurassic coast</h3>
@@ -67,7 +67,7 @@
             <div class="main-container"> <!-- used for parallax header effect-->
             <div class="col-lg order-lg-3">
 
-                <h1 id="adventures" class="display-4 mt-4 mb-2 section-title">Unforgettable Adventures...</h1>
+                <h1 id="adventures" class="anchor display-4 mt-4 mb-2 section-title">Unforgettable Adventures...</h1>
                 <section class="sub-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</section>
 
                 <div class="row">
@@ -169,7 +169,7 @@
                 </div>
 
                 <!-- Food -->
-                <h1 class="display-4 mt-4 mb-2 section-title">Food Festivals...</h1>
+                <h1 id="food" class="anchor display-4 mt-4 mb-2 section-title">Food Festivals...</h1>
                 <section class="sub-text pb-3">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</section>
                 <div class="food-container">
         
@@ -243,7 +243,7 @@
                 </div>
 
                 <!-- Events -->
-                <h1 id="speakers" class="display-4 mt-4 mb-2 section-title">Whats Happening...</h1>
+                <h1 id="events" class="anchor display-4 mt-4 mb-2 section-title">Whats Happening...</h1>
                 <section class="sub-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</section>
                
                 <h1 id="speakers" class="display-4 text-center mt-4 mb-3 section-title">calender 2022</h1>
@@ -281,7 +281,7 @@
                 </div> <!-- /Events -->
 
                 <!-- Gallery -->
-                <h1 class="display-4 mt-4 mb-2 section-title">Snapshots of Dorset...</h1>
+                <h1 id="gallery" class="anchor display-4 mt-4 mb-2 section-title">Snapshots of Dorset...</h1>
                 <section class="sub-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</section>
 
                 <div id="slideshow">
@@ -328,6 +328,28 @@
 
     <script>$(document).ready(function(){$(".magnific").magnificPopup({type:"image",closeOnContentClick:!0,image:{verticalFit:!1}})});</script>
    
+
+    <script>// The function actually applying the offset
+        function offsetAnchor() {
+          if (location.hash.length !== 0) {
+            window.scrollTo(window.scrollX, window.scrollY - 1000);
+          }
+        }
+        
+        // Captures click events of all <a> elements with href starting with #
+        $(document).on('click', 'a[href^="#"]', function(event) {
+          // Click events are captured before hashchanges. Timeout
+          // causes offsetAnchor to be called after the page jump.
+          window.setTimeout(function() {
+            offsetAnchor();
+          }, 0);
+        });
+        
+        // Set the offset when entering page with hash present in the url
+        window.setTimeout(offsetAnchor, 0);</script>
+
+
+
     <script src="js/gallery.js"></script>
     <script src="js/calender.js"></script>
     
