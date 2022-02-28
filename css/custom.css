@@ -205,14 +205,16 @@ div .card {
 
 .map-pin-svg {
     display: inline;
+    margin: 0rem 0rem 0rem -.2rem;
+    padding: .3rem 0rem 0rem 0rem;
     content: url(../img/map-pin.svg);
-    width: 1.1rem; height: 1.1rem;
+    width: 1.2rem; height: 1.2rem;
 }
 
 .location-text {
     display: inline;
     font-size: 1.2rem;
-    padding-left: .3rem;
+    padding-left: .2rem;
     color: #6c757d;
 }
 
