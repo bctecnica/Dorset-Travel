@@ -325,7 +325,6 @@ div .card {
     grid-template-areas: 
       "."
       "."; 
-
 }
 
 .calendar{
@@ -348,7 +347,7 @@ div .card {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
     box-shadow: 0 5px 5px rgb(0, 0, 0,0.2);
 }
@@ -371,10 +370,12 @@ ul .whitecoloricon{
     flex-direction: column;
     text-align: center;
 }
+
 .cal-right-bar h1{
     margin: 0;
     font-size: 2rem;
 }
+
 .cal-right-bar p{
     line-height: 21px;
 }
@@ -581,14 +582,16 @@ em {
 
     .cal-item-container{
         width: 100%;
-        height: 100%;
-        display: flex;
-        gap: 2rem;
-        align-items: center;  
+
+        height: 20rem;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem; 
     }
 
     .calendar li{
-        width: 3.5rem;
+        width: 7rem;
     }
 
     .cal-right-bar {
@@ -596,8 +599,8 @@ em {
     }
 
     .cal-container{
-        width: 40rem;
-        padding: 2rem;
+        width: 50rem;
+        padding: 3rem;
     }
 
 

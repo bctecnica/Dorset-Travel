@@ -2,7 +2,7 @@ const leftbar = document.querySelector(".cal-left-bar");
 const allLi = document.querySelectorAll(".calendar li");
 
 const rightBar = document.querySelector(".cal-right-bar");
-const h1Text = document.querySelector(".month");
+// const h1Text = document.querySelector(".month");
 const textparagraph = document.querySelector(".cal-text");
 
 allLi.forEach((li, index) => {
@@ -17,7 +17,7 @@ allLi.forEach((li, index) => {
         li.classList.add("whitecolor");
 
         if(index === 0){
-            h1Text.textContent="January";
+            // h1Text.textContent="January";
             textparagraph.innerHTML= `
             <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
             <br>  
@@ -30,9 +30,9 @@ allLi.forEach((li, index) => {
         }
         
         if(index === 1){
-            h1Text.textContent="February";
+            // h1Text.textContent="February";
             textparagraph.innerHTML= `
-            <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
+            <em>6th</em> - Beautiful Dorset exhibition<br><em>Durlston</em><br>
             <br>  
             <em>10th</em> - Abbotsbury Food Fair<br><em>Abbotsbury</em><br>
             <br>
@@ -43,7 +43,7 @@ allLi.forEach((li, index) => {
         }
         
         if(index === 2){
-            h1Text.textContent="March";
+            // h1Text.textContent="March";
             textparagraph.innerHTML= `
             <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
             <br>  
@@ -56,7 +56,7 @@ allLi.forEach((li, index) => {
         }
         
         if(index === 3){
-            h1Text.textContent="April";
+            // h1Text.textContent="April";
             textparagraph.innerHTML= `
             <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
             <br>  
@@ -69,7 +69,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 4){
-            h1Text.textContent="May";
+            // h1Text.textContent="May";
             textparagraph.innerHTML= `
             <em>6th</em> - Shaftesbury Food and Drink Festival<br><em>Shaftesbury</em><br>
             <br>  
@@ -82,7 +82,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 5){
-            h1Text.textContent="June";
+            // h1Text.textContent="June";
             textparagraph.innerHTML= `
             <em>2nd</em> - Christchurch Food Festival<br><em>Christchurch</em><br>
             <br>  
@@ -95,7 +95,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 6){
-            h1Text.textContent="July";
+            // h1Text.textContent="July";
             textparagraph.innerHTML= `
             <em>9th</em> - Bourne Free<br><em>Bournemouth</em><br>
             <br>  
@@ -108,7 +108,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 7){
-            h1Text.textContent="August";
+            // h1Text.textContent="August";
             textparagraph.innerHTML= `
             <em>1st</em> - Camp Bestival<br><em>Lulworth</em><br>
             <br>  
@@ -121,7 +121,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 8){
-            h1Text.textContent="September";
+            // h1Text.textContent="September";
             textparagraph.innerHTML= `
             <em>3rd</em> - Bournemouth Air Show<br><em>Bournemouth</em><br>
             <br>  
@@ -134,7 +134,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 9){
-            h1Text.textContent="October";
+            // h1Text.textContent="October";
             textparagraph.innerHTML= `
             <em>9th</em> - Bourne Free<br><em>Bournemouth</em><br>
             <br>  
@@ -147,7 +147,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 10){
-            h1Text.textContent="November";
+            // h1Text.textContent="November";
             textparagraph.innerHTML= `
             <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
             <br>  
@@ -160,7 +160,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 11){
-            h1Text.textContent="December";
+            // h1Text.textContent="December";
             textparagraph.innerHTML= `
             <em>1st</em> - Bournemouth Christmas Tree Wonderland<br><em>Bournemouth</em><br>
             <br>  
