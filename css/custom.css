@@ -35,14 +35,14 @@ nav .navbar-brand {
 }
 
 .nav-toggle {
-    border: 1px solid rgba(255, 255, 255, .75) !important;
+    border: 1px solid rgba(255, 255, 255, 0.308) !important;
 }
 
 .nav-link {
     transition: color 0.5s ease-in-out 0s;
     font-family: abolition regular, Impact, Charcoal;
     font-size: 1.5rem;
-    color: rgba(255, 255, 255, .75) !important;
+    color: rgba(255, 255, 255, .8) !important;
     padding-left: 1rem!important;
     padding-top: 0rem!important;
 }
@@ -449,6 +449,7 @@ ul .whitecoloricon{
 }
   
 .footer-basic .social > a > img {
+    transition: opacity 0.5s ease-in-out 0s;
     font-size:24px;
     width:40px;
     height:40px;
