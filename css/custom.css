@@ -191,7 +191,7 @@ div .card {
 .card-text {
     margin-top: .5rem;
     font-size: 1rem;
-    min-height: 10rem;
+    min-height: 11rem;
 }
 
 .card-images {
@@ -223,7 +223,7 @@ div .card {
 .location-text {
     display: inline;
     font-size: 1.2rem;
-    padding-left: .2rem;
+    /* padding-left: .2rem; */
     color: #6c757d;
 }
 
@@ -307,7 +307,7 @@ div .card {
 .cal-container{
     width: 100%;
     height: auto;
-    background-image: url("../img/calendar.jpg");
+    background-image: url("../img/calendar-edit.png");
     background-size: cover;
     border-radius: 1rem;
     box-shadow: 0 5px 10px  rgb(0, 0, 0,0.2);
