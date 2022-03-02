@@ -136,19 +136,6 @@ allLi.forEach((li, index) => {
         if(index === 9){
             // h1Text.textContent="October";
             textparagraph.innerHTML= `
-            <em>9th</em> - Bourne Free<br><em>Bournemouth</em><br>
-            <br>  
-            <em>10th</em> - Cerne Abbas Music Festival<br><em>Cerne Abbas</em><br>
-            <br>
-            <em>28th</em> - Jurassic Fields<br><em>Bridport</em><br>
-            <br>
-            <em>31st</em> - Tolpuddle Martyrs Festival<br><em>Tolpuddle</em><br>
-              `;
-        }
-
-        if(index === 10){
-            // h1Text.textContent="November";
-            textparagraph.innerHTML= `
             <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
             <br>  
             <em>10th</em> - Guided Bird Watching Cruise<br><em>Exmouth</em><br>
@@ -156,6 +143,20 @@ allLi.forEach((li, index) => {
             <em>24th</em> - Cuppa and a Chat<br><em>Swanage</em><br>
             <br>
             <em>31st</em> - Time Traveller’s Trail<br><em>Swanage</em><br>
+            
+              `;
+        }
+
+        if(index === 10){
+            // h1Text.textContent="November";
+            textparagraph.innerHTML= `
+            <em>9th</em> - Bourne Free<br><em>Bournemouth</em><br>
+            <br>  
+            <em>10th</em> - Cerne Abbas Music Festival<br><em>Cerne Abbas</em><br>
+            <br>
+            <em>28th</em> - Jurassic Fields<br><em>Bridport</em><br>
+            <br>
+            <em>31st</em> - Tolpuddle Martyrs Festival<br><em>Tolpuddle</em><br>
               `;
         }
 
