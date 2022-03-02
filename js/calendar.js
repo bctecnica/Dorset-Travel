@@ -162,7 +162,7 @@ allLi.forEach((li, index) => {
         if(index === 11){
             // h1Text.textContent="December";
             textparagraph.innerHTML= `
-            <em>1st</em> - Bournemouth Christmas Tree Wonderland<br><em>Bournemouth</em><br>
+            <em>1st</em> - Christmas Tree Wonderland<br><em>Bournemouth</em><br>
             <br>  
             <em>10th</em> - Guided Bird Watching Cruise<br><em>Exmouth</em><br>
             <br>
