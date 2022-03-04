@@ -136,7 +136,7 @@ header {
 .section-title {
     padding-left: .5rem;
     font-family: abolition regular, Impact, Charcoal;
-    font-size: 2.6rem;
+    font-size: 2.2rem;
 }
 
 section {
@@ -165,8 +165,9 @@ section {
 }
 
 div .card {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
+
 
 .card-top {
     border-radius: .5rem .5rem 0rem 0rem;
@@ -190,8 +191,7 @@ div .card {
 
 .card-text {
     margin-top: .5rem;
-    font-size: 1rem;
-    min-height: 11rem;
+    font-size: 1.2rem;
 }
 
 .card-images {
@@ -547,7 +547,7 @@ em {
     }
 
     .section-title {    
-        font-size: 4rem;
+        font-size: 4rem!important;
         padding: 0rem 1rem;
     }
     
@@ -558,6 +558,10 @@ em {
 
     .navbar {
         padding: 0rem 2.1rem;
+    }
+
+    div .card {
+        margin-top: 1.5rem;
     }
 
     .food-container {
@@ -582,9 +586,7 @@ em {
 
     .cal-item-container{
         width: 100%;
-
         height: 20rem;
-
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem; 
@@ -602,6 +604,33 @@ em {
         width: 50rem;
         padding: 3rem;
     }
+
+    .card-text {
+        min-height: 17rem;
+    }
+
+    .col-md-4 {
+        min-width: 340px;
+    }
+
+    /* .slide-container {
+        background-color: white;
+        margin: 2rem auto; 
+        position: relative; 
+        width: 600px;
+        height: 500px;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    }
+    
+    #slideshow { 
+        margin: 0 auto; 
+        position: relative; 
+        width: 350px; 
+        height: 400px;
+        padding: 10px; 
+        /* box-shadow: 0 0 20px rgba(0,0,0,0.4);  */
+    } */
 
 
 }
