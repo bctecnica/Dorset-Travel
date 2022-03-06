@@ -120,7 +120,6 @@ header {
 
 }
 
-/* -----ADVENTURE CARDS----- */
 .main-container {
     font-size: 1rem;
     padding: 1rem;
@@ -134,16 +133,20 @@ header {
 }
 
 .section-title {
-    padding-left: .5rem;
+    padding-left: .25rem;
     font-family: abolition regular, Impact, Charcoal;
     font-size: 2.2rem;
 }
 
 section {
     font-size: 1.2rem;
-    padding: 0rem .5rem;
+    padding: 0rem .25rem;
 }
 
+/* -----ADVENTURE CARDS----- */
+.row {
+    justify-content: center;
+}
 .card-link {
     font-size: 1rem;
     padding-top: 6px;
@@ -223,7 +226,6 @@ div .card {
 .location-text {
     display: inline;
     font-size: 1.2rem;
-    /* padding-left: .2rem; */
     color: #6c757d;
 }
 
@@ -350,6 +352,12 @@ div .card {
     font-size: 1rem;
     cursor: pointer;
     box-shadow: 0 5px 5px rgb(0, 0, 0,0.2);
+    transition: all .4s ease-in-out 0s;
+}
+
+.calendar li:hover {
+    background-color: rgba(27,128,141,.7);
+    color: white;
 }
 
 ul .whitecoloricon{
@@ -549,6 +557,8 @@ em {
     .section-title {    
         font-size: 4rem!important;
         padding: 0rem 1rem;
+        margin-top: 1rem!important;
+        margin-bottom: .5rem!important;
     }
     
     section {
@@ -566,7 +576,7 @@ em {
 
     .food-container {
         border: 2px solid var(--main-accent-color);
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
         margin: 1rem;
         box-shadow: 0 5px 5px  rgb(0, 0, 0,0.2);
 	}
@@ -613,7 +623,23 @@ em {
         min-width: 340px;
     }
 
-    /* .slide-container {
+}
+
+@media screen and (min-width: 1100px){
+    .food-container {
+        border: 2px solid var(--main-accent-color);
+		grid-template-columns: 1fr 1fr 1fr;
+        margin: 1rem;
+        box-shadow: 0 5px 5px  rgb(0, 0, 0,0.2);
+	}
+
+    .cal-container{
+        width: 50rem;
+        padding: 3rem;
+    }
+}
+
+     /* .slide-container {
         background-color: white;
         margin: 2rem auto; 
         position: relative; 
@@ -629,8 +655,7 @@ em {
         width: 350px; 
         height: 400px;
         padding: 10px; 
-        /* box-shadow: 0 0 20px rgba(0,0,0,0.4);  */
-    } */
+         box-shadow: 0 0 20px rgba(0,0,0,0.4);  
+     
+ */
 
-
-}

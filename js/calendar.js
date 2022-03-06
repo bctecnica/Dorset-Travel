@@ -32,7 +32,7 @@ allLi.forEach((li, index) => {
         if(index === 1){
             // h1Text.textContent="February";
             textparagraph.innerHTML= `
-            <em>6th</em> - Beautiful Dorset exhibition<br><em>Durlston</em><br>
+            <em>6th</em> - Beautiful Dorset exhibition<br><em>Canford Heath</em><br>
             <br>  
             <em>10th</em> - Abbotsbury Food Fair<br><em>Abbotsbury</em><br>
             <br>
@@ -45,7 +45,7 @@ allLi.forEach((li, index) => {
         if(index === 2){
             // h1Text.textContent="March";
             textparagraph.innerHTML= `
-            <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
+            <em>1st</em> - Hyper<br><em>Christchurch</em><br>
             <br>  
             <em>10th</em> - Guided Bird Watching Cruise<br><em>Exmouth</em><br>
             <br>
