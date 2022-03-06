@@ -17,10 +17,6 @@ html {
 }
 
 /* -----NAV----- */
-nav li a {
-    font-size: 1.55rem;
-}
-
 nav {   
     background: var(--main-accent-color);
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
@@ -39,7 +35,7 @@ nav .navbar-brand {
 }
 
 .nav-link {
-    transition: color 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
     font-family: abolition regular, Impact, Charcoal;
     font-size: 1.5rem;
     color: rgba(255, 255, 255, .8) !important;
@@ -634,7 +630,7 @@ em {
 	}
 
     .cal-container{
-        width: 50rem;
+        width: 55rem;
         padding: 3rem;
     }
 }
