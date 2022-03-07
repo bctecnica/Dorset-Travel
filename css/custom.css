@@ -35,7 +35,7 @@ nav .navbar-brand {
 }
 
 .nav-link {
-    transition: all 0.5s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
     font-family: abolition regular, Impact, Charcoal;
     font-size: 1.5rem;
     color: rgba(255, 255, 255, .8) !important;
@@ -45,6 +45,8 @@ nav .navbar-brand {
 
 .nav-link:hover {
     color: rgba(255, 255, 255) !important;
+    text-decoration: underline;
+    transform: scale(1.1);
 }
 
 /* -----HEADER----- */
@@ -434,33 +436,6 @@ em {
 .wave-svg {
     background-color: rgb(252,252,252);
 }
-
-.contact-footer{
-    padding:0px 0px 25px 0px;
-}
-  
-.footer-basic ul {
-    padding:0;
-    list-style:none;
-    text-align:center;
-    font-size:18px;
-    line-height:1.6;
-    margin-bottom:0;
-}
-  
-.footer-basic li {
-    padding:0 10px;
-}
-  
-.footer-basic ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.8;
-}
-  
-.footer-basic ul a:hover {
-    opacity:1;
-}
   
 .footer-basic .social {
     text-align:center;
@@ -478,20 +453,14 @@ em {
     border-radius: 20% 20% 20% 20%;
     margin:0 8px;
     color:inherit;
-    opacity:0.7;
-
 } 
-  
-.footer-basic .social > a > img:hover {
-    opacity: 1;
-}
   
 .footer-basic .copyright {
     margin-top:15px;
     text-align:center;
     font-size:13px;
     color:white;
-    margin-bottom:1rem;
+    margin-bottom:4rem;
 }
 
 /* --------------Media Queries ------------------- */
@@ -618,6 +587,22 @@ em {
     .col-md-4 {
         min-width: 340px;
     }
+
+    .footer-basic .copyright {
+        margin-bottom:1rem;
+    }
+
+    .footer-basic .social > a > img {
+        transition: all 0.3s ease-in-out 0s;
+        opacity:0.7;
+    
+    } 
+      
+    .footer-basic .social > a > img:hover {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
 
 }
 
