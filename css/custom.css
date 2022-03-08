@@ -27,6 +27,8 @@ nav {
 
 }
 
+
+
 .wave-logo,
 .wave-logo-right {
     width: 3.5rem;
@@ -35,6 +37,9 @@ nav {
     opacity: .5;
     margin-bottom: -5px;
 }
+
+
+
 
 .wave-logo-right {
     transform: scaleX(-1);
@@ -45,10 +50,6 @@ nav .navbar-brand {
     font-size: 2rem;
     margin-bottom: .5rem;
     padding-top: 0;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 1px;
-    text-shadow: none;
 }
 
 .nav-toggle {
@@ -160,10 +161,6 @@ header {
 section {
     font-size: 1.2rem;
     padding: 0rem .25rem;
-}
-
-.section-col-right {
-    display: none;
 }
 
 /* -----ADVENTURE CARDS----- */
@@ -600,29 +597,6 @@ em {
         margin-bottom: 0rem!important;
     }
 
-    .section-row {
-        text-align: justify;
-    }
-
-    .section-row::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    .section-col-left {
-        float: left;
-        width: 50%;
-        padding-right: 1rem;
-    }
-
-    .section-col-right {
-        float: left;
-        width: 50%;
-        padding-left: 1rem;
-        display: block;
-    }
-
     section {
         font-size: 1.2rem;
         padding: 0rem 1rem;
@@ -656,7 +630,7 @@ em {
 	}
 
     #slideshow { 
-        width: 600px; 
+        width: 550px; 
         height: 420px;
     }
 
@@ -664,7 +638,7 @@ em {
         background-color: white;
         margin: 2rem auto; 
         position: relative; 
-        width: 600px;
+        width: 550px;
         height: 500px;
         text-align: center;
         box-shadow: 0 0 20px rgba(0,0,0,0.4); 
