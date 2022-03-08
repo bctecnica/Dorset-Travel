@@ -17,9 +17,9 @@ allLi.forEach((li, index) => {
         li.classList.add("whitecolor");
 
         if(index === 0){
-            // h1Text.textContent="January";
+            // January
             textparagraph.innerHTML= `
-            <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
+            <em>2nd</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
             <br>  
             <em>10th</em> - Guided Bird Watching Cruise<br><em>Exmouth</em><br>
             <br>
@@ -30,7 +30,7 @@ allLi.forEach((li, index) => {
         }
         
         if(index === 1){
-            // h1Text.textContent="February";
+            // February
             textparagraph.innerHTML= `
             <em>6th</em> - Beautiful Dorset exhibition<br><em>Canford Heath</em><br>
             <br>  
@@ -43,7 +43,7 @@ allLi.forEach((li, index) => {
         }
         
         if(index === 2){
-            // h1Text.textContent="March";
+            // March
             textparagraph.innerHTML= `
             <em>1st</em> - Hyper<br><em>Christchurch</em><br>
             <br>  
@@ -56,9 +56,9 @@ allLi.forEach((li, index) => {
         }
         
         if(index === 3){
-            // h1Text.textContent="April";
+            // April
             textparagraph.innerHTML= `
-            <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
+            <em>1st</em> - Neon Run<br><em>Poole</em><br>
             <br>  
             <em>10th</em> - Guided Bird Watching Cruise<br><em>Exmouth</em><br>
             <br>
@@ -69,7 +69,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 4){
-            // h1Text.textContent="May";
+            // May
             textparagraph.innerHTML= `
             <em>6th</em> - Shaftesbury Food and Drink Festival<br><em>Shaftesbury</em><br>
             <br>  
@@ -82,7 +82,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 5){
-            // h1Text.textContent="June";
+            // June
             textparagraph.innerHTML= `
             <em>2nd</em> - Christchurch Food Festival<br><em>Christchurch</em><br>
             <br>  
@@ -95,7 +95,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 6){
-            // h1Text.textContent="July";
+            // July
             textparagraph.innerHTML= `
             <em>9th</em> - Bourne Free<br><em>Bournemouth</em><br>
             <br>  
@@ -108,7 +108,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 7){
-            // h1Text.textContent="August";
+            // August
             textparagraph.innerHTML= `
             <em>1st</em> - Camp Bestival<br><em>Lulworth</em><br>
             <br>  
@@ -121,7 +121,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 8){
-            // h1Text.textContent="September";
+            // September
             textparagraph.innerHTML= `
             <em>3rd</em> - Bournemouth Air Show<br><em>Bournemouth</em><br>
             <br>  
@@ -134,7 +134,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 9){
-            // h1Text.textContent="October";
+            // October
             textparagraph.innerHTML= `
             <em>1st</em> - Naturally Beautiful Dorset exhibition<br><em>Durlston</em><br>
             <br>  
@@ -148,7 +148,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 10){
-            // h1Text.textContent="November";
+            // November
             textparagraph.innerHTML= `
             <em>9th</em> - Bourne Free<br><em>Bournemouth</em><br>
             <br>  
@@ -161,7 +161,7 @@ allLi.forEach((li, index) => {
         }
 
         if(index === 11){
-            // h1Text.textContent="December";
+            // December
             textparagraph.innerHTML= `
             <em>1st</em> - Christmas Tree Wonderland<br><em>Bournemouth</em><br>
             <br>  
