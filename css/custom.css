@@ -41,7 +41,8 @@ nav .navbar-brand {
     transition: all 0.4s ease-in-out 0s;
     font-family: abolition regular, Impact, Charcoal;
     font-size: 1.5rem;
-    color: rgba(255, 255, 255, .8) !important;
+    color: rgba(255, 255, 255, .9) !important;
+    text-shadow: 1px 2px 3px rgba(0,10,30,.4);
     padding-left: 1rem!important;
     padding-top: 0rem!important;
 }
