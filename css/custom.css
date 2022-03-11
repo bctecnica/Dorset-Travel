@@ -101,7 +101,7 @@ header {
 .dorset {
     font-size: 7rem;
     margin-top: 5rem;
-    text-shadow: 1px 2px 3px rgba(0,10,30,8);
+    text-shadow: 1px 2px 3px rgba(0,10,30,.75);
 }
 
 .title {
@@ -109,7 +109,7 @@ header {
     letter-spacing: 1px;
     font-size: 2rem;
     color: white;
-    text-shadow: 1px 2px 3px rgba(0,10,30,.6);
+    text-shadow: 1px 2px 3px rgba(0,10,30,.75);
 
 }
 
@@ -448,7 +448,7 @@ em {
     margin: 1rem auto; 
     position: relative; 
     width: 350px;
-    height: 320px;
+    height: 340px;
     text-align: center;
     box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
@@ -457,7 +457,7 @@ em {
     margin: 0 auto; 
     position: relative; 
     width: 350px; 
-    height: 260px;
+    height: 280px;
     padding: 10px; 
 }
   
@@ -474,12 +474,22 @@ em {
     height: 100%; 
 }
 
-.snapshot-text {
+#snapshot-text {
     font-family: "Kaushan Script", cursive;
-    color: #252323;
-    font-size: 2rem;
+    color: rgba(0,0,0,.75);
+    font-size: 1.8rem;
     transform: rotate(-6deg);
     letter-spacing: 2px;
+    position:relative;
+}
+
+#snapshot-text p {
+    position:absolute; 
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: .2rem;
+    
 }
 
 /* -----FOOTER----- */
@@ -629,8 +639,13 @@ em {
         box-shadow: 0 0 20px rgba(0,0,0,0.4); 
     }
 
-    .snapshot-text {
-        font-size: 2.6rem;
+    #snapshot-text p {
+        font-size: 2.2rem;
+        position:absolute; 
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: .6rem;
     }
     
     .cal-item-container{
