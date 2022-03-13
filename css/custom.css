@@ -375,6 +375,7 @@ div .card {
 }
 
 .calendar li{
+    transition: all 0.4s ease-in-out 0s;
     box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
@@ -393,7 +394,8 @@ div .card {
 }
 
 .calendar li:hover {
-    background-color: rgba(27,128,141,.7);
+    transform: scale(1.08);
+    background-color: rgba(27,128,141,.6);
     color: white;
 }
 
@@ -546,7 +548,7 @@ em {
 
     .nav-link {
         font-family: abolition regular, Impact, Charcoal;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         padding-left: 1rem!important;
         padding-top: .25rem!important;
     }
