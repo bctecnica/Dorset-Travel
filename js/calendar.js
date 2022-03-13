@@ -1,8 +1,8 @@
+// Used to update whats happening calender section with info for selected month
+
 const leftbar = document.querySelector(".cal-left-bar");
 const allLi = document.querySelectorAll(".calendar li");
-
 const rightBar = document.querySelector(".cal-right-bar");
-// const h1Text = document.querySelector(".month");
 const textparagraph = document.querySelector(".cal-text");
 
 allLi.forEach((li, index) => {

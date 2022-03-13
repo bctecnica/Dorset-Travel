@@ -1,3 +1,12 @@
+/* ------------------
+-style order-
+|| general styles
+|| header and nav
+|| classes - in order of how they appear in the DOM
+|| footer
+|| media queries
+------------------ */
+
 :root {
     --main-accent-color: rgb(27,128,141);
 }
@@ -10,10 +19,6 @@
 html {
     overflow: hidden;
     height: 100%;
-}
-
-.anchor {
-    scroll-margin-top: 5rem;
 }
 
 p {
@@ -98,19 +103,18 @@ header {
     z-index: -1;
 }
 
-.dorset {
-    font-size: 7rem;
-    margin-top: 5rem;
-    text-shadow: 1px 2px 3px rgba(0,10,30,.75);
-}
-
 .title {
     font-family: abolition regular, Impact, Charcoal;
     letter-spacing: 1px;
     font-size: 2rem;
     color: white;
     text-shadow: 1px 2px 3px rgba(0,10,30,.75);
+}
 
+.dorset {
+    font-size: 7rem;
+    margin-top: 5rem;
+    text-shadow: 1px 2px 3px rgba(0,10,30,.75);
 }
 
 .sub-title{
@@ -146,38 +150,13 @@ section p{
     color: rgb(26, 26, 26);
 }
 
+.anchor {
+    scroll-margin-top: 5rem;
+}
+
 /* -----ADVENTURE CARDS----- */
 .row {
     justify-content: center;
-}
-
-.card-link {
-    font-size: 1rem;
-    padding-top: 6px;
-    border: 1px solid var(--main-accent-color);
-    border-radius: 5px;
-}
-
-.card-link:hover {
-    color: rgb(88, 172, 184)
-}
-
-.directions-link {
-    border-color: var(--main-accent-color);
-    background-color: var(--main-accent-color) !important;
-}
-
-.directions-link:hover {
-    border-color: var(--main-accent-color);
-}
-
-div .card {
-    margin-top: 1rem;
-}
-
-.card-top {
-    border-radius: .5rem .5rem 0rem 0rem;
-    padding: .7rem;
 }
 
 .card {
@@ -185,44 +164,19 @@ div .card {
     border-radius: .5rem;
 }
 
-.card-title {
-    margin-bottom: 0rem;
-    font-size: 2rem;
-    font-family: abolition regular, Impact, Charcoal;
-}
-
-.card-body {
-    padding: 0.2rem 1rem 1rem 1rem;
-}
-
-.card-text {
-    margin-top: .5rem;
-    font-size: 1.2rem;
-}
-
-.card-images { 
-    transition: all .5s ease-in-out 0s;
-}
-
-.card-images:hover {
-    transform: scale(1.02);
-    cursor: zoom-in;
-    filter: contrast(75%);
-}
-
 .card-hover-container {
     position: relative;
     width: 100%;
-  }
+}
   
-  .card-hover-image {
+.card-hover-image {
     display: block;
     width: 100%;
     height: auto;
     border-radius: 1rem;
-  }
+}
   
-  .card-hover-text {
+.card-hover-text {
     pointer-events: none;
     color: white;
     opacity: 0;
@@ -236,18 +190,50 @@ div .card {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
-  .card-hover-container:hover .card-hover-text {
+.card-hover-container:hover .card-hover-text {
     opacity: 1;
-  }
+}
 
-.direction-svg {
-    margin: 0rem 0rem -.6rem 0rem;
-    padding: 0rem .6rem 0rem 0rem;
-    display: inline;
-    content: url(../img/directions-svgrepo-com.svg);
-    width: 1.8rem; height: 1.8rem;
+.card-top {
+    border-radius: 1rem;
+    padding: .7rem;
+}
+
+.card-images { 
+    transition: all .5s ease-in-out 0s;
+}
+
+.card-images:hover {
+    transform: scale(1.02);
+    cursor: zoom-in;
+    filter: contrast(75%);
+}
+
+.card-body {
+    padding: 0.2rem 1rem 1rem 1rem;
+}
+
+.card-title {
+    margin-bottom: 0rem;
+    font-size: 2rem;
+    font-family: abolition regular, Impact, Charcoal;
+}
+
+.card-text {
+    font-weight: 400;
+}
+
+.card-link {
+    font-size: 1rem;
+    padding-top: 6px;
+    border: 1px solid var(--main-accent-color);
+    border-radius: 5px;
+}
+
+.card-link:hover {
+    color: rgb(88, 172, 184)
 }
 
 .map-pin-svg {
@@ -264,8 +250,30 @@ div .card {
     color: #6c757d;
 }
 
-.white {
-    color: white;
+.card-text {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+
+.directions-link {
+    border-color: var(--main-accent-color);
+    background-color: var(--main-accent-color) !important;
+}
+
+.directions-link:hover {
+    border-color: var(--main-accent-color);
+}
+
+div .card {
+    margin-top: 1rem;
+}
+
+.direction-svg {
+    margin: 0rem 0rem -.6rem 0rem;
+    padding: 0rem .6rem 0rem 0rem;
+    display: inline;
+    content: url(../img/directions-svgrepo-com.svg);
+    width: 1.8rem; height: 1.8rem;
 }
 
 /* -----FOOD GRID----- */
@@ -366,6 +374,14 @@ div .card {
       "."; 
 }
 
+.year {
+    font-family: abolition regular, Impact, Charcoal;
+    color: rgb(27,128,141);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 .calendar{
     width: 100%;
     display: grid;
@@ -427,24 +443,11 @@ ul .whitecoloricon{
     line-height: 21px;
 }
 
-.year {
-    font-family: abolition regular, Impact, Charcoal;
-    color: rgb(27,128,141);
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.month {
-    font-family: abolition regular, Impact, Charcoal;
-    text-decoration: underline;
-    color: rgb(27,128,141);
-}
-
 em {
     color: var(--main-accent-color);
 }
 
+/* -----GALLERY----- */
 .slide-container {
     background-color: white;
     margin: 1rem auto; 
@@ -607,6 +610,14 @@ em {
         margin-top: 1.5rem;
     }
 
+    .card-text {
+        min-height: 17rem;
+    }
+
+    .col-md-4 {
+        min-width: 340px;
+    }
+
     .food-container {
         border: 2px solid var(--main-accent-color);
 		grid-template-columns: 1fr 1fr;
@@ -672,14 +683,6 @@ em {
         margin-top: 1.5rem;
     }
 
-    .card-text {
-        min-height: 17rem;
-    }
-
-    .col-md-4 {
-        min-width: 340px;
-    }
-
     .footer-basic .copyright {
         margin-bottom:1rem;
     }
@@ -694,7 +697,6 @@ em {
         opacity: 1;
         transform: scale(1.2);
     }
-
 
 }
 
