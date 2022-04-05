@@ -421,11 +421,81 @@
                     <a href="https://twitter.com/hashtag/dorset" target="_blank"><img src="img/twitter-icon.png" alt="twitter logo"></a>
                     <a href="https://www.facebook.com/VisitDorset" target="_blank"><img src="img/Popular-facebook-Logo-png.png" alt="facebook link"></i></a>
                 </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Contact Us
+                </button>
                 <p class="copyright">BCTecnica © 2021</p>
             </footer>
         </div> <!-- /footer -->
 
     </div> <!-- /Site container -->
+
+
+
+
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <!--Form elements nest all the field elements of the form -->
+                <!--"action" is the url where the info will be submitted - "method" is the type of data transfer you wish 
+                to perform generally post to push data to a server-->
+                <form action="index.html" method="post">
+                    
+                    
+                    
+                    <fieldset>
+                        <legend><span class="number">1</span>Your Info</legend>
+                        
+                        <!--"type" brings up a more useful keyboard on mobile - "id" for CSS targeting / adding label - "name" is the varible value pushed to server-->
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user-email">
+
+                    </fieldset>
+                    
+                    <fieldset>
+                    <legend><span class="number">2</span>Your Message</legend>
+                    
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="user-subject">
+                    
+                    <!--Textareas are larger text fields and there size can be adjusted by the user by default-->
+                    <label for="bio">Message:</label>
+                    <textarea id="bio" name="user-bio"></textarea>
+
+                    </fieldset>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!--"type"= submit - submits form using form "action/method", reset - clears all form fields, button - used with javascript for custom actions.-->
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    
+                </form>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div> <!-- /Modal -->
+
+
+
+
+
+
 
     <script>$(document).ready(function(){$(".magnific").magnificPopup({type:"image",closeOnContentClick:!0,image:{verticalFit:!1}})});</script>
    
