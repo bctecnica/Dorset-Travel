@@ -101,6 +101,7 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+    padding-top: 5rem;
     height: 100%;
     transform-style: preserve-3d;
     z-index: -1;
@@ -689,6 +690,7 @@ label.light {
 
     header {
         margin-top: 2rem;
+        padding-top: 4rem;
     }
 
     .title { 
