@@ -100,7 +100,7 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 6rem;
+    margin-top: 2rem;
     height: 100%;
     transform-style: preserve-3d;
     z-index: -1;
