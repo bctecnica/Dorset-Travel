@@ -24,7 +24,6 @@
 </head>
 <body>
 
-
     <!-- Modal -->
     <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -34,14 +33,11 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                <!--Form elements nest all the field elements of the form -->
-                <!--"action" is the url where the info will be submitted - "method" is the type of data transfer you wish 
-                to perform generally post to push data to a server-->
+
                 <form id="form" name="form" action="/" method="POST">
                     <fieldset>
                         <legend><span class="number">1</span>Your Info</legend>
                         
-                        <!--"type" brings up a more useful keyboard on mobile - "id" for CSS targeting / adding label - "name" is the varible value pushed to server-->
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="user-name" required>
 
@@ -56,13 +52,12 @@
                         <label for="subject">Subject:</label>
                         <input type="text" id="subject" name="user-subject" required>
                         
-                        <!--Textareas are larger text fields and there size can be adjusted by the user by default-->
                         <label for="message">Message:</label>
                         <textarea id="message" name="user-bio" required></textarea>
 
                     </fieldset>
+                    
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <!--"type"= submit - submits form using form "action/method", reset - clears all form fields, button - used with javascript for custom actions.-->
                     <button type="submit" id="send-btn" class="btn btn-primary directions-link float-end">Send Message</button>
                     
                 </form>
@@ -71,11 +66,11 @@
         </div>
     </div> <!-- /Modal -->
 
+    <!-- Message sent popup -->
     <div id="snackbar">Message Sent</div>
 
     <!-- Site container -->
     <div class="wrapper">
-
 
         <!-- Nav -->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top"> 
