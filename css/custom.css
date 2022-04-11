@@ -58,11 +58,11 @@ nav .navbar-brand {
     padding-top: 0rem !important;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
     color: rgba(255, 255, 255) !important;
     text-decoration: underline;
     transform: scale(1.1);
-}
+} */
 
 /* -----HEADER----- */
 header, footer {
@@ -713,6 +713,12 @@ label.light {
         font-size: 1.9rem;
         padding-left: 1rem!important;
         padding-top: .25rem!important;
+    }
+
+    .nav-link:hover {
+        color: rgba(255, 255, 255) !important;
+        text-decoration: underline;
+        transform: scale(1.1);
     }
 
     header {
