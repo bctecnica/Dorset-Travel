@@ -23,10 +23,13 @@
 // const email = document.getElementById("mail");
 // const subject = document.getElementById("subject");
 // const message = document.getElementById("message");
+var popup = document.getElementById("snackbar");
 const form = document.getElementById("form");
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     $("#formModal").modal('hide');
+    popup.className = "show";
+    setTimeout(function(){ popup.className = popup.className.replace("show", ""); }, 4500);
     console.log("clicked");
 })
