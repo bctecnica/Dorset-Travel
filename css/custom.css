@@ -222,7 +222,7 @@ section p{
 }
 
 .card-text {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .card-link {
@@ -391,7 +391,7 @@ div .card {
 }
 
 .calendar li{
-    font-family: cursive;
+    font-weight: 200;
     transition: all 0.4s ease-in-out 0s;
     box-sizing: border-box;
     margin: 0 auto;
@@ -404,7 +404,7 @@ div .card {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 1.1rem;
+    font-size: 1rem;
     cursor: pointer;
     box-shadow: 0 5px 5px rgb(0, 0, 0,0.2);
     transition: all .4s ease-in-out 0s;
@@ -753,7 +753,7 @@ label.light {
         font-size: 4rem!important;
         padding: .2rem 0rem;
         margin-top: 2rem!important;
-        margin-bottom: 0rem!important;
+        margin-bottom: .3rem!important;
     }
 
     section {
