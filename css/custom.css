@@ -115,10 +115,23 @@ header {
     font-size: 7rem;
     margin-top: 5rem;
     text-shadow: 1px 2px 3px rgba(0,10,30,.75);
+    animation: fadeslideUp 2s ease-in ;
+}
+
+@keyframes fadeslideUp {
+    0% {
+      opacity: .1;
+      transform: translateY(15%); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%); 
+    }
 }
 
 .sub-title{
     font-family: abolition regular, Impact, Charcoal;
+    animation: fadeslideUp 2s ease-in ;
 }
 
 .main-container {
