@@ -91,7 +91,9 @@ header {
 }
 
 .foreground {
+    opacity: .9;
     transform: translateZ(-5px) scale(1.6);
+    animation: wave 3.8s ease-in;
 }
 
 .background,
@@ -109,19 +111,20 @@ header {
     font-size: 2rem;
     color: white;
     text-shadow: 1px 2px 3px rgba(0,10,30,.75);
+    animation: fadeSlideUp 2s ease-in-out ;
 }
 
 .dorset {
     font-size: 7rem;
     margin-top: 5rem;
     text-shadow: 1px 2px 3px rgba(0,10,30,.75);
-    animation: fadeslideUp 2s ease-in ;
+    animation: fadeSlideUp 2.5s ease-in ;
 }
 
-@keyframes fadeslideUp {
+@keyframes fadeSlideUp {
     0% {
       opacity: .1;
-      transform: translateY(15%); 
+      transform: translateY(10%); 
     }
     100% {
       opacity: 1;
@@ -129,9 +132,15 @@ header {
     }
 }
 
-.sub-title{
-    font-family: abolition regular, Impact, Charcoal;
-    animation: fadeslideUp 2s ease-in ;
+@keyframes wave {
+    0% {
+      opacity: 1;
+      transform: translateY(1%); 
+    }
+    35% {
+        transform: translateY(-12%); 
+    }
+
 }
 
 .main-container {
